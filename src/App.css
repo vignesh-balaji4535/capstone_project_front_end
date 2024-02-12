@@ -1,0 +1,113 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: rgb(12, 12, 24);
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+}
+.card{
+  border: 2px solid skyblue;
+  box-shadow: 5px 5px 15px rgb(63, 138, 141);
+  background-color: rgb(190, 189, 189);
+
+}
+.card:hover {
+  box-shadow: 10px 10px 15px rgb(50, 128, 131);
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(56, 36, 36);
+}
+
+
+.nav-link:active {
+  background-color: rgb(252, 250, 250);
+  color: rgb(101, 100, 100);
+  border-radius: 20px;
+}
+
+.nav-link:hover {
+  color: aquamarine;
+  text-shadow: 2px 2px 2px aqua;
+}
+
+.nav-item .nav-link .active{
+  color: aqua !important;
+}
+
+.nav-link {
+  color: rgb(240, 234, 234);
+  font-family: 'Lobster', sans-serif
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav {
+  background: url("./images/moon\ wallpaper.jpg") rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.input {
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.input:active{
+  border: none;
+}
+
+input{
+  border-radius: 10px;
+}
+
+.btn{
+  box-shadow: 3px 3px 7px black;
+}
+
+.card-text{
+  color: rgb(196, 196, 199);
+  font-family:  "Libre Baskerville", serif;
+}
+
+.card-text-1{
+  font-family:  "Libre Baskerville", serif;
+
+}
+input{
+  font-family: "Libre Baskerville", serif;
+}
+h5 {
+  font-family: 'Dancing Script', 'cursive';
+}
+
+h2 {
+  font-family:  "Libre Baskerville", serif;
+
+}
+
+h3{
+  font-family:  "Libre Baskerville", serif;
+
+}
+
+.card-title{
+  font-family: 'Protest Revolution',sans-serif; ;
+}
+
+.btn{
+  font-family:  'Protest Revolution',sans-serif;
+  cursor: pointer;
+}
